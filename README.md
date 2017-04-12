@@ -30,7 +30,7 @@ A chart will pop up in the end.
 
 ### Install with PIP
 
-This is the original PIP install method:
+This is the original PIP install method (assuming you have Python 2.7 pre-installed on your machine):
 
 In terminal to install the necessary dependencies. Here is a link to [pip](https://pip.pypa.io/en/stable/installing/) if you don't already have it.
 
@@ -50,3 +50,9 @@ The challenge for this video is to use scikit-learn to create a line of best fit
 ##Credits
 
 The credits for the original code go to [gcrowder](https://github.com/gcrowder). I've merely created a wrapper to get people started.
+
+# Notes
+
+If you'd like to run this in other Python version (2.x / 3.x), simply amend the followings in the `environment.yml` (conda method) or `requirements.txt` (direct pip method):
+- replace python version with the one you like
+- remove all the version numbers in the other modules (e.g. matplotlib, numpy, pandas, scikit-learn)
